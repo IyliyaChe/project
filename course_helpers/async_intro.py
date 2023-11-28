@@ -17,7 +17,7 @@ async def setup_db():
             UNION ALL
             SELECT random()
             FROM cte
-            LIMIT 40000
+            LIMIT 400
         )
     SELECT x FROM cte;
     """)
