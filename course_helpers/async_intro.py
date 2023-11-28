@@ -1,3 +1,4 @@
+# Демонстрация асинхронности
 import asyncio
 import time
 import aiosqlite
